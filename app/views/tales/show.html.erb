@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Type:</b>
+  <%= @tale.type %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%= @tale.body %>
+</p>
+
+<p>
+  <b>Person:</b>
+  <%= @tale.person_id %>
+</p>
+
+<p>
+  <b>Told at:</b>
+  <%= @tale.told_at %>
+</p>
+
+<p>
+  <b>Place:</b>
+  <%= @tale.place %>
+</p>
+
+
+<%= link_to 'Edit', edit_tale_path(@tale) %> |
+<%= link_to 'Back', tales_path %>

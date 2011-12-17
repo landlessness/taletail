@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type: 
+  body: MyText
+  person_id: 1
+  told_at: 2011-12-17 03:42:22
+  place: MyString
+
+two:
+  type: 
+  body: MyText
+  person_id: 1
+  told_at: 2011-12-17 03:42:22
+  place: MyString
